@@ -1,0 +1,14 @@
+.cols {
+	border: 1px solid #DEDEDE;
+	height: 500px;
+}
+
+.area-info {
+	height: 400px;
+	overflow-y: auto;
+}
+
+#msjs-publicos {
+	height: 370px;
+	padding-top: 20px;
+}

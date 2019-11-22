@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title Chat con Socket.io
+		link(rel="stylesheet", href="bootstrap/css/bootstrap.css")
+		link(rel="stylesheet", href="css/estilos.css")
+	body
+		.container.mt-5
+			.row#form-nickname
+				.col-md-5
+					p
+						label(for="nickname") Ingrese su nickname
+						input#nickname.form-control(type="text", placeholder="Escriba el nickname y presione ENTER")
+
+
+			.row#area-chat
+				.col-md-6.cols
+					h3.mt-2 Mensajes
+					hr
+					input.form-control(type="text", placeholder="Escriba su mensaje y presione ENTER")
+					#msjs-publicos.area-info
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quas quae ipsa. Voluptate, ea? Ratione autem quod porro repudiandae ipsum sapiente modi, excepturi ullam, vel aliquid, fugit tempora nesciunt dolore?   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi explicabo quia quasi a consequuntur quod obcaecati minus quaerat, quae laborum nostrum, quisquam est facere error libero quis accusamus autem distinctio.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium saepe quas, incidunt consectetur reprehenderit ea ex totam, numquam voluptas obcaecati aut qui rem et consequuntur laboriosam, temporibus recusandae pariatur dolore! div Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ut nemo deleniti aliquid nihil commodi sequi cum debitis? Veniam laudantium ex, provident atque dignissimos voluptates. Nihil accusantium esse facere excepturi.
+							div Molestiae nisi cum, quibusdam esse reiciendis optio adipisci quos modi laudantium quas ipsum eveniet praesentium sunt fugit laboriosam? Iusto qui minus quas illo vero fugiat, maiores id praesentium facere provident.
+							div Nam sapiente porro voluptate culpa sunt ex expedita dolorum impedit fuga dolor beatae doloribus, est unde nisi id perferendis eaque odio reprehenderit distinctio rerum, maxime possimus labore. Quo, ipsam, iste!
+							div Inventore quo quia perspiciatis corporis quos vitae ipsam, voluptas reprehenderit doloremque, ducimus tenetur rerum, rem incidunt doloribus molestiae quisquam? Vitae tempora corrupti repellat id nihil, quaerat tempore consequatur! Quia, laborum.
+							div Fuga voluptate voluptatem iste illo impedit neque repellendus facere aliquid distinctio dolore, excepturi aliquam recusandae esse laboriosam, officiis mollitia modi repudiandae minima doloribus ea alias dolores nostrum quod exercitationem veritatis.
+							div Reprehenderit, error illo, magnam corporis qui ipsum magni doloremque aut adipisci enim harum. Ea, nesciunt. Quod blanditiis nihil odit similique porro, doloribus nesciunt cum incidunt officia laudantium magni quis. Adipisci.
+							div Doloremque quidem quas vitae in ipsa! Dolorem assumenda explicabo, quae quas doloremque odio sunt veniam ducimus ut voluptates. Velit architecto enim minus, fugit repellendus consectetur dolores dolorem aliquid laborum natus!
+							div Quas voluptas tempore sunt, natus quibusdam ad, ipsum quae iusto magni quaerat voluptatum vel fugit temporibus provident iure odit, doloremque illo numquam consequatur repellat necessitatibus optio! Illo eaque corrupti, voluptatum.
+							div Reiciendis expedita provident vero blanditiis, cupiditate sunt dolores beatae corporis ab quod eligendi itaque consectetur perferendis cumque sequi molestiae laborum ipsum reprehenderit officia nobis minus velit, obcaecati! Facere, quod, quasi.
+							div Doloribus deleniti odit quae itaque reiciendis hic. Sequi architecto corporis eius explicabo deserunt, necessitatibus iste! Quas explicabo quibusdam sapiente nulla, porro doloremque deserunt, nemo nesciunt aperiam inventore. Enim, vitae provident!
+							div Hic quidem veritatis aliquid similique beatae recusandae maiores nisi, cumque accusantium accusamus consectetur voluptates suscipit obcaecati, repudiandae magnam doloribus blanditiis necessitatibus nesciunt amet vero voluptas consequatur, omnis cum reiciendis. Non.
+							div Sunt necessitatibus accusantium nam magnam amet harum, totam dignissimos, perferendis nemo minima. Alias facere at quo, officiis iste labore. Facere deleniti qui nostrum impedit culpa facilis ipsa dicta in reprehenderit.
+							div Molestias voluptates tenetur dolorum, eos tempore consequuntur iusto repudiandae sunt dicta sapiente doloremque, in architecto vel accusamus quo, possimus soluta minus perspiciatis animi, blanditiis earum consequatur quidem qui! Necessitatibus, quod.
+							div Repudiandae labore velit, distinctio illum accusantium iste, doloremque ullam quia qui recusandae nemo iusto voluptas quod architecto culpa harum ea ab sit possimus sunt. Corrupti quam dolore, quibusdam et omnis.
+							div Libero, amet blanditiis nostrum quasi asperiores. Cumque aliquam ea neque sit ratione. Aliquam ipsum maiores facere minus voluptatibus alias optio error? Maxime consequuntur asperiores accusamus, dolore libero magnam, molestias harum?
+							div Eius quis hic aliquid sed consequuntur voluptatibus earum vero. Voluptatum, placeat reprehenderit delectus explicabo aliquid dolorum alias, in, a, nemo amet cupiditate harum ducimus unde culpa nobis. Molestiae, officia, reiciendis.
+							div Architecto expedita nostrum dicta maiores voluptatibus porro eveniet delectus alias explicabo, aperiam ratione voluptatem, amet, excepturi laborum. Sequi vel at recusandae veritatis harum ad magnam non mollitia ratione. Cupiditate, obcaecati!
+							div Ea fugiat, quo doloremque repellendus. Totam doloribus eum, officia amet sed molestias nam necessitatibus maxime beatae expedita. Aperiam, labore quo dicta enim fugit, cupiditate vero rerum quia blanditiis minus laborum.
+							div Porro nobis, eum laborum laudantium quis incidunt neque necessitatibus ducimus. Soluta enim veritatis sapiente, et architecto labore vero non quibusdam id obcaecati, accusantium commodi, error mollitia, reprehenderit doloremque explicabo. Possimus?
+							div Aliquam itaque fugit earum ex aperiam vitae eligendi, tenetur quia quam voluptatum at minus facilis, accusamus deserunt veritatis. Aliquid illo saepe tenetur, cumque distinctio odio tempora porro. Ex, laudantium, eum.
+
+				.col-md-3.cols
+					h3.mt-2 Privados
+					hr
+					#msjs-privados.area-info
+
+				.col-md-3.cols
+					h3.mt-2 Usuarios
+					hr
+					#usuarios-conectados.area-info
+
+
+		script(src="js/jquery.min.js")
+		script(src="js/client.js")
+
+
+
+
+
+
+
+
+
+
+
